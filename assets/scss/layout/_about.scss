@@ -1,0 +1,38 @@
+.about_us {
+  height: 62rem;
+  background-color: #f8f3ed;
+  padding-inline: $padding_inline;
+  padding-top: 6rem;
+  &_text {
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center;
+    h1 {
+      width: 32rem;
+      // display: inline-block;
+      font-weight: 400;
+      font-size: 3rem;
+      margin: 1rem auto;
+      text-align: center;
+      margin: 0 auto;
+    }
+    p {
+      margin: 2rem auto 4rem auto;
+      color: #222120;
+      width: 44rem;
+      font-size: 20px;
+    }
+  }
+  &_card {
+    &_box {
+      width: 24rem;
+      img {
+        width: 24rem;
+      }
+      h3 {
+        font-size: 2rem;
+        font-weight: 400;
+      }
+    }
+  }
+}

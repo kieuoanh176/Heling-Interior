@@ -1,0 +1,58 @@
+.header {
+  background-color: #222120;
+  color: #faf5ef;
+  width: 100%;
+  height: 100vh;
+}
+.header_logo_box {
+  img {
+    height: 3.5em;
+  }
+}
+.navigation {
+  padding: 1.4rem 6rem;
+
+  ul {
+    gap: 5rem;
+
+    list-style: none;
+
+    li {
+      opacity: 40%;
+      &:hover {
+        opacity: 100%;
+        // list-style: inside;
+      }
+    }
+  }
+}
+
+.header_content {
+  padding: 1rem $padding_inline;
+
+  position: relative;
+  .header_text {
+    width: 40rem;
+    padding-top: 2.5rem;
+    .big_header {
+      h1 {
+        font-weight: 400;
+        font-size: 4rem;
+        // line-height: 4rem;
+        padding-left: 4rem;
+      }
+      :first-child {
+        margin-left: -4rem;
+      }
+      :last-child {
+        margin-left: 5rem;
+      }
+    }
+  }
+  img {
+    position: absolute;
+    width: 31rem;
+    right: 0;
+    bottom: -3.6rem;
+  }
+}
